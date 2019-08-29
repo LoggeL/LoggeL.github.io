@@ -1,0 +1,42 @@
+.pfp {
+    float: left;
+    height: 250px;
+}
+
+p.init {
+    height: 300px;
+}
+
+@media (max-width: 450px) { 
+    .pfp {
+        height: 150px;
+    }
+
+    p.init {
+        height: 200px;
+    }
+}
+
+@media (max-width: 300px) { 
+    .pfp {
+        width: 100%;
+        height: auto;
+    }
+
+    p.init {
+        height: initial;
+    }
+}
+
+.ct-chart {
+    width: 100%;
+    height: 50vw;
+    margin: auto;
+    max-width: 750px;
+    max-height: 550px;
+}
+
+a.social img {
+    height: 100px;
+    display: inline;
+}

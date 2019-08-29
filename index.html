@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" href="paper.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Logges personal Homepage</title>
+    <link rel="stylesheet" href="chartist.min.css">
+</head>
+
+<body>
+    <nav class="border">
+        <div class="nav-brand">
+            <h3><a href="#">Logges Personal Homepage</a></h3>
+        </div>
+    </nav>
+
+    <div class="margin">
+        <p class="init">
+            <img src="ProfilePicture.svg" class="pfp margin">
+            Hi I'm Logge and welcome to my page. <br /> <br />
+            <code>I'm just pressing buttons</code>
+        </p>
+        <h4>My Programming Skills</h4>
+        <div class="row">
+            JavaScript (Backend)
+            <div class="progress margin-bottom">
+                <div class="bar success w-85"></div>
+            </div>
+            HTML/CSS/JS (Frontend)
+            <div class="progress margin-bottom">
+                <div class="bar danger w-70"></div>
+            </div>
+            Python
+            <div class="progress margin-bottom">
+                <div class="bar w-50"></div>
+            </div>
+            Lua
+            <div class="progress margin-bottom">
+                <div class="bar secondary w-50"></div>
+            </div>
+        </div>
+
+        <h4>My Recent Activities</h4>
+        <div class="ct-chart"></div>
+        <h4>My Projects:</h4>
+        <ul>
+            <li>Spyfall</li>
+            <li>LoL-Database</li>
+            <li>Palatina-Films Homepage</li>
+            <li>This Homepage</li>
+            <li>Several Web scraping and automation tasks</li>
+        </ul>
+        <h4>Contact me:</h4>
+        <a class="social" href="https://discordapp.com/users/320909318767509505"><img src="Discord-Logo-Color.svg"></a>
+        <a class="social" href="https://github.com/LoggeL"><img src="github.svg"></a>
+
+    </div>
+    <script src="chartist.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
