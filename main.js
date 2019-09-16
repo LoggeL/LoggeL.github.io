@@ -25,7 +25,7 @@ var loadJSONP = (function () {
     };
 })();
 
-loadJSONP('https://wakatime.com/share/@044ed4c3-38b9-4be7-ac4b-3a2f41fba255/3f8f23db-31fd-4fbf-9ac8-93042b18f665.json',
+loadJSONP('https://wakatime.com/share/@044ed4c3-38b9-4be7-ac4b-3a2f41fba255/e279d43f-7e62-45a5-8d00-2b256c86c3c6.json',
     function (response) {
         console.log(response.data);
 
