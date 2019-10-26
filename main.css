@@ -28,12 +28,9 @@ p.init {
     }
 }
 
-.ct-chart {
-    width: 100%;
-    height: 50vw;
+#holder {
     margin: auto;
-    max-width: 750px;
-    max-height: 550px;
+    width: 100%;
 }
 
 a.social img {
